@@ -2,10 +2,6 @@ USE ROLE ACCOUNTADMIN;
 USE SCHEMA PLAYER_360.RAW;
 USE WAREHOUSE PLAYER_360_BUILD_WH;
 
-CREATE STAGE IF NOT EXISTS PLAYER_360.raw.support
-    URL = 's3://sfquickstarts/sfguide_getting_started_with_player_360_unlocking_churn_prediction_and_game_optimization/'
-    ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE')
-
 CREATE OR REPLACE FILE FORMAT json_format
     TYPE = json
     COMPRESSION = GZIP
