@@ -1,1 +1,1 @@
-# sfguide-getting-started-with-360profiles-churn-prediction-game-optimization
+# Getting Started with Player 360: Unlocking Churn Prediction and Game Optimization
