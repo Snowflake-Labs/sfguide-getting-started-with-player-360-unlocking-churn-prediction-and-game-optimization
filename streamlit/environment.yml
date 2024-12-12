@@ -1,0 +1,14 @@
+name: sf_env
+channels:
+- snowflake
+dependencies:
+- matplotlib
+- plotly
+- shap
+- snowflake-ml-python
+- streamlit-extras
+- snowflake-snowpark-python
+- streamlit
+- seaborn
+- ydata-profiling
+- altair
