@@ -6,4 +6,4 @@
 The Player 360 solution showcases how gaming companies can create a comprehensive unified data intelligence platform, tailored for game developers, analysts and data scientists aiming to build exceptional gaming experiences. This leverages Snowflake's Dynamic Tables for event streaming, Notebooks with Container RunTime, and Snowpark ML for machine learning model training. It integrates the Model Registry for model logging and a Streamlit app within Snowflake for a customer-facing frontend UI. This solution enables companies to consolidate data in Snowflake, analyze in-game telemetry, and develop a robust churn prediction model that scales seamlessly across different game titles and player segments.
 
 ## Step-By-Step Guide
-For prerequisites, setup, step-by-step guide and instructions, please refer to the TODO [QuickStart Guide](https://quickstarts.snowflake.com/guide/<quickstart-link>).
+For prerequisites, setup, step-by-step guide and instructions, please refer to the [QuickStart Guide](https://quickstarts.snowflake.com/guide/getting-started-with-player-360-unlocking-churn-prediction-and-game-optimization/index.html#0).
