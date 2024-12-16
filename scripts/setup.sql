@@ -30,6 +30,6 @@ CREATE STAGE IF NOT EXISTS PLAYER_360.analytic.notebook_rolling_churn_prediction
 GRANT OWNERSHIP ON STAGE PLAYER_360.analytic.notebook_rolling_churn_prediction TO ROLE public COPY CURRENT GRANTS;
 CREATE STAGE IF NOT EXISTS PLAYER_360.raw.support
     DIRECTORY = (ENABLE = TRUE)
-    URL = 's3://sfquickstarts/sfguide_getting_started_with_player_360_unlocking_churn_prediction_and_game_optimization/';
+    URL = 's3://sfquickstarts/sfguide_getting_started_with_360profiles_churn_prediction_game_optimization/';
 
 GRANT OWNERSHIP ON STAGE PLAYER_360.raw.support TO ROLE public COPY CURRENT GRANTS;
