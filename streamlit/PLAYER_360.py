@@ -107,7 +107,7 @@ with st.sidebar:
     # Check if the user_id has changed
     if user_id != st.session_state.user_id:
         st.session_state.user_id = user_id
-        st.experimental_rerun()
+        st.rerun()
     if user_id not in users_df['USER_ID'].values:
         st.write("Invalid User ID")
 
