@@ -117,7 +117,7 @@ FILE_FORMAT = (TYPE = 'CSV', SKIP_HEADER = 1);
 
 -- Assign the value of DATEDIFF to the variable
 SET days_since_max_log_out = (
-    SELECT DATEDIFF(day, CURRENT_DATE, MAX(LOG_OUT)) 
+    SELECT DATEDIFF(day, MAX(LOG_OUT), CURRENT_DATE) 
     FROM PLAYER_360.RAW.SESSIONS
 );
 
